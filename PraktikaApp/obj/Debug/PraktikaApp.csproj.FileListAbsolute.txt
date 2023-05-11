@@ -1,0 +1,13 @@
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.Properties.Resources.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\PraktikaApp.exe.config
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\PraktikaApp.exe
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\PraktikaApp.pdb
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\MySql.Data.dll
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\MySql.Data.xml
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.csproj.CopyComplete
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.exe
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.pdb
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.Form1.resources
