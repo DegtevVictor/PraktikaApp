@@ -11,3 +11,7 @@ C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.cspr
 C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.exe
 C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.pdb
 C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.Form1.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.Form2.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\MetroFramework.dll
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.Form3.resources
