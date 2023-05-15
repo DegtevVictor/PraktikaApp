@@ -14,10 +14,21 @@ namespace PraktikaApp
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         public static MySql.Data.MySqlClient.MySqlConnection conn;
+        public static bool isAdmin = false;
 
         public Form1()
         {
             InitializeComponent();
+            try
+            {
+                conn = new MySql.Data.MySqlClient.MySqlConnection("server=127.0.0.1;uid=root;pwd=;database=utilities");
+                conn.Open();
+            }
+            catch (MySql.Data.MySqlClient.MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -28,18 +39,10 @@ namespace PraktikaApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connString = string.Format("server=127.0.0.1;uid={0};pwd={1};database=utilities", textBox1.Text, textBox2.Text);
-            try
-            {
-                conn = new MySql.Data.MySqlClient.MySqlConnection(connString);
-                conn.Open();
-            }
-            catch (MySql.Data.MySqlClient.MySqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-                return;
-            }
-            if (conn.State.ToString() == "Open")
+            DataTable dt = new DataTable();
+            MySql.Data.MySqlClient.MySqlDataAdapter dataAdapter = new MySql.Data.MySqlClient.MySqlDataAdapter(string.Format("SELECT * FROM logins WHERE login = '{0}' AND pass = '{1}';", textBox1.Text, textBox2.Text), conn);
+            dataAdapter.Fill(dt);
+            if (dt.Rows.Count == 1)
             {
                 textBox1.Visible = false;
                 textBox2.Visible = false;
@@ -49,6 +52,15 @@ namespace PraktikaApp
                 button2.Visible = true;
                 button3.Visible = true;
                 conn.Close();
+            }
+            else
+            {
+                MessageBox.Show("Неверные данные для входа");
+                return;
+            }
+            foreach (DataRow dr in dt.Rows)
+            {
+                if (dr.Field<string>("role") == "admin") isAdmin = true;
             }
         }
 
