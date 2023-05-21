@@ -35,6 +35,7 @@
             this.button1 = new MetroFramework.Controls.MetroButton();
             this.textBox2 = new MetroFramework.Controls.MetroTextBox();
             this.button2 = new MetroFramework.Controls.MetroButton();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // button3
@@ -101,11 +102,22 @@
             this.button2.Visible = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(363, 171);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(106, 23);
+            this.metroButton1.TabIndex = 8;
+            this.metroButton1.Text = "Удалить данные";
+            this.metroButton1.Visible = false;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(492, 217);
+            this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button1);
@@ -128,6 +140,7 @@
         private MetroFramework.Controls.MetroButton button1;
         private MetroFramework.Controls.MetroTextBox textBox2;
         private MetroFramework.Controls.MetroButton button2;
+        private MetroFramework.Controls.MetroButton metroButton1;
     }
 }
 

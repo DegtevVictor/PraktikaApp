@@ -44,6 +44,10 @@ namespace PraktikaApp
             dataAdapter.Fill(dt);
             if (dt.Rows.Count == 1)
             {
+                foreach (DataRow dr in dt.Rows)
+                {
+                    if (dr.Field<string>("role") == "admin") isAdmin = true;
+                }
                 textBox1.Visible = false;
                 textBox2.Visible = false;
                 label1.Visible = false;
@@ -51,6 +55,7 @@ namespace PraktikaApp
                 button1.Visible = false;
                 button2.Visible = true;
                 button3.Visible = true;
+                if (isAdmin) metroButton1.Visible = true;
                 conn.Close();
             }
             else
@@ -58,16 +63,18 @@ namespace PraktikaApp
                 MessageBox.Show("Неверные данные для входа");
                 return;
             }
-            foreach (DataRow dr in dt.Rows)
-            {
-                if (dr.Field<string>("role") == "admin") isAdmin = true;
-            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Form3 form3 = new Form3();
             form3.Show();
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
         }
     }
 }
