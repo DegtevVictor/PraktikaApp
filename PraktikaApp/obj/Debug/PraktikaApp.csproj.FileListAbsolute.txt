@@ -43,3 +43,7 @@ C:\Users\ThisIsDifficult\Desktop\PraktikaApp-main\PraktikaApp\obj\Debug\Praktika
 C:\Users\ThisIsDifficult\Desktop\PraktikaApp-main\PraktikaApp\obj\Debug\PraktikaApp.exe
 C:\Users\ThisIsDifficult\Desktop\PraktikaApp-main\PraktikaApp\obj\Debug\PraktikaApp.pdb
 C:\Users\ThisIsDifficult\Desktop\PraktikaApp-main\PraktikaApp\obj\Debug\PraktikaApp.Form4.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\Google.Protobuf.dll
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.exe.config
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Debug\PraktikaApp.Form4.resources

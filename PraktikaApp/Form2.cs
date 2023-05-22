@@ -19,6 +19,13 @@ namespace PraktikaApp
             InitializeComponent();
         }
 
+        private bool areAllFieldsFilled()
+        {
+            return !string.IsNullOrEmpty(textBox1.Text) && !string.IsNullOrEmpty(textBox2.Text) && !string.IsNullOrEmpty(textBox3.Text) && !string.IsNullOrEmpty(textBox4.Text) && !string.IsNullOrEmpty(textBox5.Text);
+        }
+
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             DataTable dataTable = new DataTable();
@@ -43,6 +50,13 @@ namespace PraktikaApp
                 MessageBox.Show(ex.Message);
                 return;
             }
+            MessageBox.Show("Успешно внесены данные");
+        }
+
+        private void _TextChanged(object sender, EventArgs e)
+        {
+            if (areAllFieldsFilled()) button1.Enabled = true;
+            else button1.Enabled = false;
         }
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Release\PraktikaApp.exe.config
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Release\PraktikaApp.exe
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Release\PraktikaApp.pdb
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Release\MetroFramework.dll
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Release\MetroFramework.Fonts.dll
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Release\MySql.Data.dll
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\bin\Release\MySql.Data.xml
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.Form1.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.Form2.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.Form3.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.Form4.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.Properties.Resources.resources
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.csproj.CopyComplete
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.exe
+C:\Users\Student\source\repos\PraktikaApp\PraktikaApp\obj\Release\PraktikaApp.pdb

@@ -19,6 +19,8 @@ namespace PraktikaApp
             InitializeComponent();
             populateNameList();
             populateValueList();
+            comboBox1.SelectedIndex = 0;
+            comboBox2.SelectedIndex = 0;
         }
 
         private void populateNameList()
